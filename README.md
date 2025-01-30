@@ -5,7 +5,8 @@
 This repository contains infrastructure, pipelines, and CI/CD setup for an identity verification system using MLOps best practices. It includes pipelines for inference and retraining for identity verification on aws. 
 
 ## 📁 Project Structure
-Component	Technology	Why It’s Used
+Component	Technology
+
 Drift Detection -> Evidently AI	 -> Lightweight, integrates with Python, and provides interpretable drift metrics.
 
 Compute	-> SageMaker ->	Scalable, managed training/inference, and spot instances for cost efficiency.
